@@ -59,7 +59,7 @@ button:hover {
 
 .social {
   display: flex;
-  gap: 1em;
+  gap: 8px;
   flex-direction: row;
   justify-content: center;
   position: relative;
@@ -99,7 +99,7 @@ button:hover {
   border-radius: 60%;
   width: 27px;
   position: relative;
-  left: 200px;
+  left: 120px;
 }
 
 .fa-facebook-f:hover {
