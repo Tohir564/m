@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+
+.content {
+  border-style: hidden;
+  width: 375px;
+  padding: 47px;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-mobile.svg);
+  height: auto;
+  background-size: contain;
+}
+
+h1 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 1.1em;
+  line-height: 1.2;
+}
+
+p {
+  font-family: Poppins;
+  font-size: 0.608em;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+button {
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  padding: 14px;
+  width: 180px;
+  border-radius: 25px;
+  border-style: none;
+  font-size: 0.65em;
+  margin: 15px;
+  
+}
+
+button:hover {
+  background-color:hsl(258, 25%, 55%);
+  color: white;
+}
+
+.social {
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 37px;
+}
+
+@media screen and (min-width: 500px) {
+  .content {
+    width: 550px;
+  }
+  img {
+    width: 50%;
+    float: left;
+  }
+
+  p {
+    text-align: justify;
+    position: relative;
+    left: 4%;
+  }
+  .text {
+    font-size: 1em;
+  }
+
+
+  h1 {
+    text-align: justify;
+    position: relative;
+    left: 4%;
+  }
+}
+
+.social > i {
+  border-style: solid;
+  padding: 5px;
+  border-width: 1px;
+  border-radius: 60%;
+  width: 27px;
+  position: relative;
+  left: 200px;
+}
+
+.fa-facebook-f:hover {
+  background-color: white;
+  color: aqua;
+}
+
+.fa-twitter:hover {
+  background-color: white;
+  color: deepskyblue;
+}
+
+.fa-instagram:hover {
+  background-color: white;
+  color: crimson;
+}
